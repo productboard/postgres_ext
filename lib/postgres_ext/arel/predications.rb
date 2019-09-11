@@ -1,5 +1,3 @@
-require 'arel/predications'
-
 module Arel
   module Predications
     def contained_within(other)

@@ -1,4 +1,3 @@
-require 'arel/nodes/binary'
 module Arel
   module Nodes
     class ContainedWithin < Arel::Nodes::Binary
