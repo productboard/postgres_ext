@@ -189,8 +189,8 @@ module ActiveRecord
       self
     end
 
-    def build_arel_with_extensions(aliases = nil)
-      arel = build_arel_without_extensions(aliases)
+    def build_arel_with_extensions(connection, aliases = nil)
+      arel = build_arel_without_extensions(connection, aliases)
 
       build_with(arel)
 
