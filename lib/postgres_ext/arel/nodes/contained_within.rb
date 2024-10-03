@@ -8,7 +8,7 @@ module Arel
       def operator; :"<<=" end
     end
 
-    class Contains < Arel::Nodes::Binary
+    class Contains < Arel::Nodes::InfixOperation
       def operator; :>> end
     end
 
